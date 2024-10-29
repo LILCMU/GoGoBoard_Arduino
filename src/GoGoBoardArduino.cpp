@@ -14,7 +14,7 @@ extern USBSerial Serial;
 extern USBSerial SerialUSB;
 #endif
 
-#define gogoSerial Serial1
+HardwareSerial gogoSerial(PA10, PA9);
 
 GoGoBoardArduino GoGoBoard;
 
